@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Culinaria Feliz</title>
+	
+		<title>Culinaria Feliz</title>
 
+	<style type="text/css">
+		form {width: 300px; background: #ccc; margin: 100px auto; padding: 10px;}
+
+		form span {font: 16px Verdana, Geneva, sans-serif; color: #069; display: block; padding: 4px 0;}
+		form input{width: 280px; padding: 6px; border: none; border-radius: 4px;}
+		form select {width: 200px; border-radius: 4px;}
+
+		.btn{
+			font-family: arial;
+			font-size: 14px;
+			text-transform: uppercase;
+			font-weight: 200;
+			border-radius: 6px;
+			cursor: pointer;
+			font: 16px Verdana, Geneva, sans-serif; color: #069; display: block; padding: 12px 0;
+		}
+
+	</style>
 </head>
 <body>
-	<h1>Formulario de contato</h1>
+	<center>
+		<h1>Formulario de contato</h1>
+	</center>
 	<form>
-	Nome: <input type="text" name=""><br>	
-	Email: <input type="text" name=""><br>
-	Telefone: <input type="Telefone" name=""><br>
-	Data de Nascimento: <input type="Date" name=""><br>
-	Sexo: <select>
-			<option>Masculino</option>
-			<option>Femenino</option>
-		</select><br>
-	Termo de responsabilidade <br> <input type="checkbox" name=""> Li e Aceito
+		<span>Nome:</span> 
+			<input type="text" value="" =""><br>	
+		<span>Email:</span>
+			<input type="text" name=""><br>
+		<span>Telefone:</span>
+			<input type="Telefone" name=""><br>
+		<span>Data de Nascimento:</span>
+	 		<input type="Date" name=""><br>
+		<span>Sexo:</span> 
+			<select>
+				<option>Masculino</option>
+				<option>Femenino</option>
+			</select><br>
 
+	Termo de responsabilidade <br> <input type="checkbox" name=""> Li e Aceito <br><br>	
+	<button class="btn">Enviar</button>
 	</form>
 </body>
 </html>
